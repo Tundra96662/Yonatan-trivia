@@ -9,8 +9,7 @@ function App(question) {
   return (
     <div className="app">
       <h1 className="title">Trivia!</h1>
-      <Question />
-      <h1>{question.text}</h1>
+      <Question text={data[0].question.text} />
     </div>
   );
 }
