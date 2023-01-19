@@ -1,8 +1,5 @@
-export default function Question() {
-    return (
-       <div className = "question" > 
-          
-       </div> 
-    );
-    
+function Question() {
+  return <div></div>;
 }
+
+export default Question;
