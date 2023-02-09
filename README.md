@@ -89,12 +89,12 @@ In the components folder:
 
   - [x] Used the function keyword.
   - [x] Named the component AnswerChoices.
-  - [ ] Included a return statement with an empty div that has a className of “answer-choice”.
-  - [ ] Exported the AnswerChoices component at the end.
+  - [x] Included a return statement with an empty div that has a className of “answer-choice”.
+  - [x] Exported the AnswerChoices component at the end.
 
 In the Question component:
 
-- [ ] Render an instance of `<AnswerChoices />` inside of `<Question />`.
+- [x] Render an instance of `<AnswerChoices />` inside of `<Question />`.
 - [ ] Add a prop called `answer` to `<Answer />` with the value equal to "Answer choice goes here".
 - [ ] Be sure to pass your props into the `<Answer />` component.
 
