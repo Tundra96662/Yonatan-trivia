@@ -95,13 +95,13 @@ In the components folder:
 In the Question component:
 
 - [x] Render an instance of `<AnswerChoices />` inside of `<Question />`.
-- [ ] Add a prop called `answer` to `<Answer />` with the value equal to "Answer choice goes here".
-- [ ] Be sure to pass your props into the `<Answer />` component.
+- [x] Add a prop called `answer` to `<Answer />` with the value equal to "Answer choice goes here".
+- [x] Be sure to pass your props into the `<Answer />` component.
 
 In the App.js file:
 
-- [ ] Pass a prop for the answer choices in `<Question />`.
-  - [ ] We want to use the data from our json file!
+- [x] Pass a prop for the answer choices in `<Question />`.
+  - [x] We want to use the data from our json file!
 
 In the Question and AnswerChoices components:
 
