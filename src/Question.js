@@ -5,7 +5,7 @@ function Question(question) {
     <div>
       <h1>{question.text}</h1>
 
-      <h1>{AnswerChoices.answer}</h1>
+      <AnswerChoices question="answer choices go here" />
     </div>
   );
 }
