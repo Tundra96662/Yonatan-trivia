@@ -1,7 +1,7 @@
 function AnswerChoices(answer) {
   return (
     <div className="answer-choice">
-      <h3>Answer Choices goes here</h3>
+      <h3> </h3>
     </div>
   );
 }
