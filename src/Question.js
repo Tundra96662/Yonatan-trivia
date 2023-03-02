@@ -1,11 +1,11 @@
-import AnswerChoices from "./AnswerChoices";
+import AnswerChoice from "./AnswerChoice";
 
-function Question(question) {
+function Question(props) {
   return (
     <div>
-      <h1>{question.text}</h1>
+      <h1>{props.text}</h1>
 
-      <AnswerChoices question="answer choices go here" />
+      <AnswerChoice answer="Answer choice goes here" />
     </div>
   );
 }

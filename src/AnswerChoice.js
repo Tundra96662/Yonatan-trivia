@@ -1,4 +1,4 @@
-function AnswerChoices(answer) {
+function AnswerChoice(props) {
   return (
     <div className="answer-choice">
       <h3> </h3>
@@ -6,4 +6,4 @@ function AnswerChoices(answer) {
   );
 }
 
-export default AnswerChoices;
+export default AnswerChoice;
