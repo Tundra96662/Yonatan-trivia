@@ -4,7 +4,7 @@ import data from "./sample_data.json";
 import Question from "/src/Question.js";
 
 import NextQuestion from "/src/NextQuestion.js";
-import AnswerChoices from "./AnswerChoices";
+import AnswerChoice from "./AnswerChoice.js";
 
 let currentQuestionNumber = 0;
 
@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <h1 className="title">Trivia!</h1>
       <Question text={data[currentQuestionNumber].question.text} />
-      <AnswerChoices choices={data[currentQuestionNumber]} />
+      <AnswerChoice choices={data[currentQuestionNumber]} />
       <NextQuestion
         choices={data[0].question.choices}
         currentQuestionNumber={currentQuestionNumber}
